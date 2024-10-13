@@ -1,7 +1,5 @@
 "use client";
-
 import { Category } from "@prisma/client";
-import { Cat } from "lucide-react";
 import { IconType } from "react-icons";
 import {
     FcDataSheet,

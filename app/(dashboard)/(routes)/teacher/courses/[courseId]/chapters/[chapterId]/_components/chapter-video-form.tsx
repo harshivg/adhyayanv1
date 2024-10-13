@@ -93,7 +93,7 @@ export const ChapterVideoForm = ({
                             }}
                         />
                         <div className="text-xs text-muted-foreground mt-4">
-                            Upload this chapter's video. We support MP4, MOV, AVI, and other common video formats.
+                            Upload this chapter&apos;s video. We support MP4, MOV, AVI, and other common video formats.
                         </div>
                     </div>
                 )
