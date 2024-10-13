@@ -87,4 +87,18 @@ body {
   font-size: 16px !important;
 }
 
+.invisible-scrollbar {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and WebKit browsers */
+}
+
+.checker {
+  background-color: red;
+}
+
+
 @import "~@uploadthing/react/styles.css";
