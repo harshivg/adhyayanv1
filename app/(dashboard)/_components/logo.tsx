@@ -2,7 +2,14 @@ import Image from "next/image";
 
 const Logo = () => {
     return ( 
-        <Image width={130} height={130} alt="logo" src="/logo.svg"></Image>
+        <Image 
+            width={100} 
+            height={100} 
+            alt="logo" 
+            src="/adhyayan-logo.svg"
+            className="rounded-full shadow-md border-2 border-white"
+        >
+        </Image>
     );
 }
  
